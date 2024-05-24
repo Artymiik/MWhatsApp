@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- icon -->
+  <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.png') }}" type="image/x-icon">
+
+  <!-- css -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/script.success.css') }}">
+
+  <title>{{ data.TitleWebSite }}</title>
+</head>
+<body>
+  
+  <div id="success">
+    <span class="logo">😄</span>
+    <h1>{{ data.ScriptSuccessData['Title'] }}</h1>
+    <p>{{ data.ScriptSuccessData['Time'] }}</p>
+    <a href="{{ data.ScriptSuccessData['Link'] }}">Вернуться</a>
+  </div>
+
+</body>
+</html>

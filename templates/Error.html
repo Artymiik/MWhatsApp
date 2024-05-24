@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- icon -->
+  <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.png') }}" type="image/x-icon">
+
+  <!-- css -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/error.css') }}">
+
+  <title>{{ data.TitleWebSite }}</title>
+</head>
+<body>
+  
+  <div id="Error">
+    <span class="logo">🤔</span>
+    <h1>Возникли проблемы с данными или с сервером</h1>
+    <p>Попробуйте снова или проверьте правильность данных</p>
+    <a href="/">Попробовать снова</a>
+  </div>
+
+</body>
+</html>

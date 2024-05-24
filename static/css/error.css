@@ -1,0 +1,59 @@
+@import url(./font-face.css);
+
+*, html {
+  font-family: "Ruberoid";
+  font-size: 14px;
+  letter-spacing: -.1px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(to bottom left, #ffb9b9, #fe8e8e);
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+
+  text-align: center;
+}
+
+#Error {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#Error .logo {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+#Error h1 {
+  color: #1d1d1d;
+  letter-spacing: .4px;
+  font-size: 23px;
+}
+
+#Error p {
+  color: #313131;
+}
+
+#Error a {
+  text-decoration: none;
+  background: transparent;
+  color: #2a2a2a;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: max(1px, 0.0625rem) solid #575757;
+  margin-top: 5px;
+}
+
+#Error a:hover {
+  transition: .5s;
+  background: #575757;
+  color: #fff;
+}

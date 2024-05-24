@@ -1,0 +1,47 @@
+﻿/* Ruberoid */
+@font-face {
+    font-family: "Ruberoid";
+    src: url("../fonts/Ruberoid/Ruberoid-Regular.ttf");
+}
+@font-face {
+    font-family: "Ruberoid bold";
+    src: url(/fonts/Ruberoid/Ruberoid-Bold.ttf);
+}
+@font-face {
+    font-family: "Ruberoid extra-bold";
+    src: url(/fonts/Ruberoid/Ruberoid-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Ruberoid light";
+    src: url(/fonts/Ruberoid/Ruberoid-Light.ttf);
+}
+@font-face {
+    font-family: "Ruberoid extra-light";
+    src: url(/fonts/Ruberoid/Ruberoid-ExtraLight.ttf);
+}
+@font-face {
+    font-family: "Ruberoid ultra-light";
+    src: url(/fonts/Ruberoid/Ruberoid-UltraLight.ttf);
+}
+
+/* Neue_Machina */
+@font-face {
+    font-family: "Neue Machina";
+    src: url("../fonts/Neue_Machina/NeueMachina-Regular.ttf");
+}
+@font-face {
+    font-family: "Neue Machina bold";
+    src: url(/fonts/Neue_Machina/NeueMachina-Bold.ttf);
+}
+@font-face {
+    font-family: "Neue Machina ultra-bold";
+    src: url(/fonts/Neue_Machina/NeueMachina-Ultrabold.ttf);
+}
+@font-face {
+    font-family: "Neue Machina light";
+    src: url(/fonts/Neue_Machina/NeueMachina-Light.ttf);
+}
+@font-face {
+    font-family: "Neue Machina extra-light";
+    src: url(/fonts/Neue_Machina/NeueMachina-Regular.ttf);
+}
