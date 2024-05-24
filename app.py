@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/', methods=['GET', 'POST'])
 def index():
   if (request.method == 'GET'):
-    with open('web/data.json', 'r', encoding='utf-8') as f:
+    with open('data.json', 'r', encoding='utf-8') as f:
       data = json.load(f)
 
     return render_template('Index.html', data = data)
@@ -34,21 +34,21 @@ def index():
 
 @app.route('/start', methods = ['GET'])
 def start():
-  with open('web/data.json', 'r', encoding='utf-8') as f:
+  with open('data.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
   return render_template('Start.html', data = data)
 
 @app.route('/success', methods = ['GET'])
 def success():
-  with open('web/data.json', 'r', encoding='utf-8') as f:
+  with open('data.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
   return render_template('ScriptSuccess.html', data = data)
 
 @app.route('/error')
 def Error():
-  with open('web/data.json', 'r', encoding='utf-8') as f:
+  with open('data.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
   return render_template('Error.html', data = data);
