@@ -1,4 +1,4 @@
-from script import Main
+import script.Main as Main
 import json
 import time
 from flask import Flask, render_template, request, url_for, redirect
