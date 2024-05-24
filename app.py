@@ -1,4 +1,4 @@
-from script import Main
+# from script import Main
 import json
 import time
 from flask import Flask, render_template, request, url_for, redirect
@@ -25,12 +25,12 @@ def index():
   message = '\n'.join(request.form['Message'].splitlines())
 
   time.sleep(2)
-  whatsapp_bot = Main.WhatsAppBot(phones, message)
+  # whatsapp_bot = Main.WhatsAppBot(phones, message)
 
-  if whatsapp_bot == 200:
-    return redirect("/success")
-  else:
-    return redirect("/error")
+  # if whatsapp_bot == 200:
+  #   return redirect("/success")
+  # else:
+  #   return redirect("/error")
 
 @app.route('/start', methods = ['GET'])
 def start():
